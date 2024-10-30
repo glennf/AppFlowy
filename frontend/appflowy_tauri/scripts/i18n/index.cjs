@@ -20,6 +20,7 @@ const languages = [
     'tr-TR',
     'zh-CN',
     'zh-TW',
+    'no-NO',
 ];
 
 const fs = require('fs');

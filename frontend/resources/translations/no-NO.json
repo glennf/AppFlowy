@@ -1,0 +1,732 @@
+{
+  "appName": "AppFlowy",
+  "defaultUsername": "Meg",
+  "welcomeText": "Velkommen til @:appName",
+  "welcomeTo": "Velkommen til",
+  "githubStarText": "Stjerne på GitHub",
+  "subscribeNewsletterText": "Abonner på nyhetsbrev",
+  "letsGoButtonText": "Kom i gang",
+  "title": "Tittel",
+  "youCanAlso": "Du kan også",
+  "and": "og",
+  "failedToOpenUrl": "Kunne ikke åpne URL: {}",
+  "blockActions": {
+    "addBelowTooltip": "Klikk for å legge til nedenfor",
+    "addAboveCmd": "Alt+klikk",
+    "addAboveMacCmd": "Option+klikk",
+    "addAboveTooltip": "for å legge til ovenfor",
+    "dragTooltip": "Dra for å flytte",
+    "openMenuTooltip": "Klikk for å åpne menyen"
+  },
+  "signUp": {
+    "buttonText": "Registrer deg",
+    "title": "Registrer deg til @:appName",
+    "getStartedText": "Kom i gang",
+    "emptyPasswordError": "Passordet kan ikke være tomt",
+    "repeatPasswordEmptyError": "Gjenta passordet kan ikke være tomt",
+    "unmatchedPasswordError": "Gjenta passordet er ikke det samme som passordet",
+    "alreadyHaveAnAccount": "Har du allerede en konto?",
+    "emailHint": "E-post",
+    "passwordHint": "Passord",
+    "repeatPasswordHint": "Gjenta passord",
+    "signUpWith": "Registrer deg med:"
+  },
+  "signIn": {
+    "loginTitle": "Logg inn til @:appName",
+    "loginButtonText": "Logg inn",
+    "loginStartWithAnonymous": "Fortsett med en anonym økt",
+    "continueAnonymousUser": "Fortsett med en anonym økt",
+    "anonymous": "Anonym",
+    "buttonText": "Logg inn",
+    "signingInText": "Logger inn...",
+    "forgotPassword": "Glemt passord?",
+    "emailHint": "E-post",
+    "passwordHint": "Passord",
+    "dontHaveAnAccount": "Har du ikke en konto?",
+    "createAccount": "Opprett konto",
+    "repeatPasswordEmptyError": "Gjenta passordet kan ikke være tomt",
+    "unmatchedPasswordError": "Gjenta passordet er ikke det samme som passordet",
+    "syncPromptMessage": "Synkronisering av data kan ta litt tid. Vennligst ikke lukk denne siden",
+    "or": "ELLER",
+    "signInWithGoogle": "Fortsett med Google",
+    "signInWithGithub": "Fortsett med GitHub",
+    "signInWithDiscord": "Fortsett med Discord",
+    "signInWithApple": "Fortsett med Apple",
+    "continueAnotherWay": "Fortsett på en annen måte",
+    "signUpWithGoogle": "Registrer deg med Google",
+    "signUpWithGithub": "Registrer deg med Github",
+    "signUpWithDiscord": "Registrer deg med Discord",
+    "signInWith": "Fortsett med:",
+    "signInWithEmail": "Fortsett med e-post",
+    "signInWithMagicLink": "Fortsett",
+    "signUpWithMagicLink": "Registrer deg med Magic Link",
+    "pleaseInputYourEmail": "Vennligst skriv inn din e-postadresse",
+    "settings": "Innstillinger",
+    "magicLinkSent": "Magic Link sendt!",
+    "invalidEmail": "Vennligst skriv inn en gyldig e-postadresse",
+    "alreadyHaveAnAccount": "Har du allerede en konto?",
+    "logIn": "Logg inn",
+    "generalError": "Noe gikk galt. Vennligst prøv igjen senere",
+    "limitRateError": "Av sikkerhetsgrunner kan du bare be om en magisk lenke hvert 60. sekund",
+    "magicLinkSentDescription": "En magisk lenke ble sendt til din e-post. Klikk på lenken for å fullføre innloggingen. Lenken utløper etter 5 minutter."
+  },
+  "workspace": {
+    "chooseWorkspace": "Velg ditt arbeidsområde",
+    "defaultName": "Mitt arbeidsområde",
+    "create": "Opprett arbeidsområde",
+    "importFromNotion": "Importer fra Notion",
+    "learnMore": "Lær mer",
+    "reset": "Tilbakestill arbeidsområde",
+    "renameWorkspace": "Gi nytt navn til arbeidsområde",
+    "workspaceNameCannotBeEmpty": "Arbeidsområdenavnet kan ikke være tomt",
+    "resetWorkspacePrompt": "Tilbakestilling av arbeidsområdet vil slette alle sider og data i det. Er du sikker på at du vil tilbakestille arbeidsområdet? Alternativt kan du kontakte supportteamet for å gjenopprette arbeidsområdet",
+    "hint": "arbeidsområde",
+    "notFoundError": "Arbeidsområde ikke funnet",
+    "failedToLoad": "Noe gikk galt! Kunne ikke laste arbeidsområdet. Prøv å lukke alle åpne instanser av @:appName og prøv igjen.",
+    "errorActions": {
+      "reportIssue": "Rapporter et problem",
+      "reportIssueOnGithub": "Rapporter et problem på Github",
+      "exportLogFiles": "Eksporter loggfiler",
+      "reachOut": "Ta kontakt på Discord"
+    },
+    "menuTitle": "Arbeidsområder",
+    "deleteWorkspaceHintText": "Er du sikker på at du vil slette arbeidsområdet? Denne handlingen kan ikke angres, og eventuelle sider du har publisert vil bli upublisert.",
+    "createSuccess": "Arbeidsområde opprettet vellykket",
+    "createFailed": "Kunne ikke opprette arbeidsområde",
+    "createLimitExceeded": "Du har nådd det maksimale antallet arbeidsområder som er tillatt for kontoen din. Hvis du trenger flere arbeidsområder for å fortsette arbeidet ditt, vennligst be om det på Github",
+    "deleteSuccess": "Arbeidsområde slettet vellykket",
+    "deleteFailed": "Kunne ikke slette arbeidsområde",
+    "openSuccess": "Åpne arbeidsområde vellykket",
+    "openFailed": "Kunne ikke åpne arbeidsområde",
+    "renameSuccess": "Arbeidsområde omdøpt vellykket",
+    "renameFailed": "Kunne ikke gi nytt navn til arbeidsområde",
+    "updateIconSuccess": "Oppdatert arbeidsområdeikon vellykket",
+    "updateIconFailed": "Oppdatert arbeidsområdeikon mislyktes",
+    "cannotDeleteTheOnlyWorkspace": "Kan ikke slette det eneste arbeidsområdet",
+    "fetchWorkspacesFailed": "Kunne ikke hente arbeidsområder",
+    "leaveCurrentWorkspace": "Forlat arbeidsområde",
+    "leaveCurrentWorkspacePrompt": "Er du sikker på at du vil forlate det nåværende arbeidsområdet?"
+  },
+  "shareAction": {
+    "buttonText": "Del",
+    "workInProgress": "Kommer snart",
+    "markdown": "Markdown",
+    "html": "HTML",
+    "clipboard": "Kopier til utklippstavle",
+    "csv": "CSV",
+    "copyLink": "Kopier lenke",
+    "publishToTheWeb": "Publiser til web",
+    "publishToTheWebHint": "Opprett en nettside med AppFlowy",
+    "publish": "Publiser",
+    "unPublish": "Avpubliser",
+    "visitSite": "Besøk nettstedet",
+    "exportAsTab": "Eksporter som",
+    "publishTab": "Publiser",
+    "shareTab": "Del",
+    "publishOnAppFlowy": "Publiser på AppFlowy",
+    "shareTabTitle": "Inviter til samarbeid",
+    "shareTabDescription": "For enkel samarbeid med hvem som helst",
+    "copyLinkSuccess": "Kopiert lenke til utklippstavle",
+    "copyShareLink": "Kopier delingslenke",
+    "copyLinkFailed": "Kunne ikke kopiere lenke til utklippstavle",
+    "copyLinkToBlockSuccess": "Kopiert blokklenke til utklippstavle",
+    "copyLinkToBlockFailed": "Kunne ikke kopiere blokklenke til utklippstavle"
+  },
+  "moreAction": {
+    "small": "liten",
+    "medium": "medium",
+    "large": "stor",
+    "fontSize": "Skriftstørrelse",
+    "import": "Importer",
+    "moreOptions": "Flere alternativer",
+    "wordCount": "Antall ord: {}",
+    "charCount": "Antall tegn: {}",
+    "createdAt": "Opprettet: {}",
+    "deleteView": "Slett",
+    "duplicateView": "Dupliser"
+  },
+  "importPanel": {
+    "textAndMarkdown": "Tekst & Markdown",
+    "documentFromV010": "Dokument fra v0.1.0",
+    "databaseFromV010": "Database fra v0.1.0",
+    "notionZip": "Notion eksportert zip-fil",
+    "csv": "CSV",
+    "database": "Database"
+  },
+  "disclosureAction": {
+    "rename": "Gi nytt navn",
+    "delete": "Slett",
+    "duplicate": "Dupliser",
+    "unfavorite": "Fjern fra favoritter",
+    "favorite": "Legg til i favoritter",
+    "openNewTab": "Åpne i en ny fane",
+    "moveTo": "Flytt til",
+    "addToFavorites": "Legg til i favoritter",
+    "copyLink": "Kopier lenke",
+    "changeIcon": "Endre ikon",
+    "collapseAllPages": "Skjul alle undersider"
+  },
+  "blankPageTitle": "Tom side",
+  "newPageText": "Ny side",
+  "newDocumentText": "Nytt dokument",
+  "newGridText": "Nytt rutenett",
+  "newCalendarText": "Ny kalender",
+  "newBoardText": "Nytt brett",
+  "chat": {
+    "newChat": "AI Chat",
+    "inputMessageHint": "Spør @:appName AI",
+    "inputLocalAIMessageHint": "Spør @:appName Local AI",
+    "unsupportedCloudPrompt": "Denne funksjonen er bare tilgjengelig når du bruker @:appName Cloud",
+    "relatedQuestion": "Relatert",
+    "serverUnavailable": "Tjenesten er midlertidig utilgjengelig. Vennligst prøv igjen senere.",
+    "aiServerUnavailable": "🌈 Åh nei! 🌈. En enhjørning spiste svaret vårt. Vennligst prøv igjen!",
+    "clickToRetry": "Klikk for å prøve igjen",
+    "regenerateAnswer": "Generer på nytt",
+    "question1": "Hvordan bruke Kanban til å administrere oppgaver",
+    "question2": "Forklar GTD-metoden",
+    "question3": "Hvorfor bruke Rust",
+    "question4": "Oppskrift med det som er på kjøkkenet mitt",
+    "aiMistakePrompt": "AI kan gjøre feil. Sjekk viktig informasjon.",
+    "chatWithFilePrompt": "Vil du chatte med filen?",
+    "indexFileSuccess": "Indeksering av filen vellykket",
+    "inputActionNoPages": "Ingen sideresultater",
+    "referenceSource": "{} kilde funnet",
+    "referenceSources": "{} kilder funnet",
+    "clickToMention": "Klikk for å nevne en side",
+    "uploadFile": "Last opp PDF-er, md eller txt-filer for å chatte med",
+    "questionTitle": "Ideer",
+    "questionDetail": "Hei {}! Hvordan kan jeg hjelpe deg i dag?",
+    "indexingFile": "Indekserer {}"
+  },
+  "trash": {
+    "text": "Søppel",
+    "restoreAll": "Gjenopprett alle",
+    "restore": "Gjenopprett",
+    "deleteAll": "Slett alle",
+    "pageHeader": {
+      "fileName": "Filnavn",
+      "lastModified": "Sist endret",
+      "created": "Opprettet"
+    },
+    "confirmDeleteAll": {
+      "title": "Alle sider i søppel",
+      "caption": "Er du sikker på at du vil slette alt i søppel? Denne handlingen kan ikke angres."
+    },
+    "confirmRestoreAll": {
+      "title": "Gjenopprett alle sider i søppel",
+      "caption": "Denne handlingen kan ikke angres."
+    },
+    "restorePage": {
+      "title": "Gjenopprett: {}",
+      "caption": "Er du sikker på at du vil gjenopprette denne siden?"
+    },
+    "mobile": {
+      "actions": "Søppelhandlinger",
+      "empty": "Ingen sider eller rom i søppel",
+      "emptyDescription": "Flytt ting du ikke trenger til søppel.",
+      "isDeleted": "er slettet",
+      "isRestored": "er gjenopprettet"
+    },
+    "confirmDeleteTitle": "Er du sikker på at du vil slette denne siden permanent?"
+  },
+  "deletePagePrompt": {
+    "text": "Denne siden er i søppel",
+    "restore": "Gjenopprett side",
+    "deletePermanent": "Slett permanent",
+    "deletePermanentDescription": "Er du sikker på at du vil slette denne siden permanent? Dette er irreversibelt."
+  },
+  "dialogCreatePageNameHint": "Sidenavn",
+  "questionBubble": {
+    "shortcuts": "Snarveier",
+    "whatsNew": "Hva er nytt?",
+    "help": "Hjelp & Support",
+    "markdown": "Markdown",
+    "debug": {
+      "name": "Feilsøkingsinfo",
+      "success": "Kopiert feilsøkingsinfo til utklippstavle!",
+      "fail": "Kunne ikke kopiere feilsøkingsinfo til utklippstavle"
+    },
+    "feedback": "Tilbakemelding"
+  },
+  "menuAppHeader": {
+    "moreButtonToolTip": "Fjern, gi nytt navn og mer...",
+    "addPageTooltip": "Legg raskt til en side inne",
+    "defaultNewPageName": "Uten tittel",
+    "renameDialog": "Gi nytt navn"
+  },
+  "noPagesInside": "Ingen sider inne",
+  "toolbar": {
+    "undo": "Angre",
+    "redo": "Gjør om",
+    "bold": "Fet",
+    "italic": "Kursiv",
+    "underline": "Understreking",
+    "strike": "Gjennomstreking",
+    "numList": "Nummerert liste",
+    "bulletList": "Punktliste",
+    "checkList": "Sjekkliste",
+    "inlineCode": "Innebygd kode",
+    "quote": "Sitatblokk",
+    "header": "Overskrift",
+    "highlight": "Utheving",
+    "color": "Farge",
+    "addLink": "Legg til lenke",
+    "link": "Lenke"
+  },
+  "tooltip": {
+    "lightMode": "Bytt til lysmodus",
+    "darkMode": "Bytt til mørk modus",
+    "openAsPage": "Åpne som en side",
+    "addNewRow": "Legg til en ny rad",
+    "openMenu": "Klikk for å åpne menyen",
+    "dragRow": "Dra for å endre rekkefølgen på raden",
+    "viewDataBase": "Vis database",
+    "referencePage": "Denne {name} er referert",
+    "addBlockBelow": "Legg til en blokk nedenfor",
+    "aiGenerate": "Generer"
+  },
+  "sideBar": {
+    "closeSidebar": "Lukk sidefeltet",
+    "openSidebar": "Åpne sidefeltet",
+    "personal": "Personlig",
+    "private": "Privat",
+    "workspace": "Arbeidsområde",
+    "favorites": "Favoritter",
+    "clickToHidePrivate": "Klikk for å skjule privat rom\nSider du oppretter her er kun synlige for deg",
+    "clickToHideWorkspace": "Klikk for å skjule arbeidsområde\nSider du oppretter her er synlige for alle medlemmer",
+    "clickToHidePersonal": "Klikk for å skjule personlig rom",
+    "clickToHideFavorites": "Klikk for å skjule favorittrom",
+    "addAPage": "Legg til en ny side",
+    "addAPageToPrivate": "Legg til en side i privat rom",
+    "addAPageToWorkspace": "Legg til en side i arbeidsområde",
+    "recent": "Nylig",
+    "today": "I dag",
+    "thisWeek": "Denne uken",
+    "others": "Tidligere favoritter",
+    "earlier": "Tidligere",
+    "justNow": "akkurat nå",
+    "minutesAgo": "{count} minutter siden",
+    "lastViewed": "Sist sett",
+    "favoriteAt": "Favoritt",
+    "emptyRecent": "Ingen nylige sider",
+    "emptyRecentDescription": "Når du ser på sider, vil de vises her for enkel henting.",
+    "emptyFavorite": "Ingen favorittsider",
+    "emptyFavoriteDescription": "Merk sider som favoritter - de vil bli oppført her for rask tilgang!",
+    "removePageFromRecent": "Fjern denne siden fra nylig?",
+    "removeSuccess": "Fjernet vellykket",
+    "favoriteSpace": "Favoritter",
+    "RecentSpace": "Nylig",
+    "Spaces": "Rom",
+    "upgradeToPro": "Oppgrader til Pro",
+    "upgradeToAIMax": "Lås opp ubegrenset AI",
+    "storageLimitDialogTitle": "Du har gått tom for gratis lagringsplass. Oppgrader for å låse opp ubegrenset lagring",
+    "storageLimitDialogTitleIOS": "Du har gått tom for gratis lagringsplass.",
+    "aiResponseLimitTitle": "Du har gått tom for gratis AI-svar. Oppgrader til Pro-planen eller kjøp en AI-tillegg for å låse opp ubegrensede svar",
+    "aiResponseLimitTitleIOS": "Du har gått tom for gratis AI-svar.",
+    "aiResponseLimitDialogTitle": "AI-svargrense nådd",
+    "aiResponseLimit": "Du har gått tom for gratis AI-svar.\n\nGå til Innstillinger -> Plan -> Klikk AI Max eller Pro Plan for å få flere AI-svar",
+    "askOwnerToUpgradeToPro": "Arbeidsområdet ditt går tom for gratis lagringsplass. Vennligst be arbeidsområdeeieren om å oppgradere til Pro-planen",
+    "askOwnerToUpgradeToProIOS": "Arbeidsområdet ditt går tom for gratis lagringsplass.",
+    "askOwnerToUpgradeToAIMax": "Arbeidsområdet ditt går tom for gratis AI-svar. Vennligst be arbeidsområdeeieren om å oppgradere planen eller kjøpe AI-tillegg",
+    "askOwnerToUpgradeToAIMaxIOS": "Arbeidsområdet ditt går tom for gratis AI-svar.",
+    "purchaseStorageSpace": "Kjøp lagringsplass",
+    "purchaseAIResponse": "Kjøp ",
+    "askOwnerToUpgradeToLocalAI": "Be arbeidsområdeeieren om å aktivere AI On-device",
+    "upgradeToAILocal": "Kjør lokale modeller på enheten din for ultimat personvern",
+    "upgradeToAILocalDesc": "Chat med PDF-er, forbedre skrivingen din og autofyll tabeller ved hjelp av lokal AI"
+  },
+  "notifications": {
+    "export": {
+      "markdown": "Eksportert notat til Markdown",
+      "path": "Dokumenter/flowy"
+    }
+  },
+  "contactsPage": {
+    "title": "Kontakter",
+    "whatsHappening": "Hva skjer denne uken?",
+    "addContact": "Legg til kontakt",
+    "editContact": "Rediger kontakt"
+  },
+  "button": {
+    "ok": "Ok",
+    "confirm": "Bekreft",
+    "done": "Ferdig",
+    "cancel": "Avbryt",
+    "signIn": "Logg inn",
+    "signOut": "Logg ut",
+    "complete": "Fullfør",
+    "save": "Lagre",
+    "generate": "Generer",
+    "esc": "ESC",
+    "keep": "Behold",
+    "tryAgain": "Prøv igjen",
+    "discard": "Forkast",
+    "replace": "Erstatt",
+    "insertBelow": "Sett inn nedenfor",
+    "insertAbove": "Sett inn ovenfor",
+    "upload": "Last opp",
+    "edit": "Rediger",
+    "delete": "Slett",
+    "duplicate": "Dupliser",
+    "putback": "Sett tilbake",
+    "update": "Oppdater",
+    "share": "Del",
+    "removeFromFavorites": "Fjern fra favoritter",
+    "removeFromRecent": "Fjern fra nylig",
+    "addToFavorites": "Legg til i favoritter",
+    "favoriteSuccessfully": "Favoritt vellykket",
+    "unfavoriteSuccessfully": "Fjern favoritt vellykket",
+    "duplicateSuccessfully": "Duplisert vellykket",
+    "rename": "Gi nytt navn",
+    "helpCenter": "Hjelpesenter",
+    "add": "Legg til",
+    "yes": "Ja",
+    "no": "Nei",
+    "clear": "Tøm",
+    "remove": "Fjern",
+    "dontRemove": "Ikke fjern",
+    "copyLink": "Kopier lenke",
+    "align": "Juster",
+    "login": "Logg inn",
+    "logout": "Logg ut",
+    "deleteAccount": "Slett konto",
+    "back": "Tilbake",
+    "signInGoogle": "Fortsett med Google",
+    "signInGithub": "Fortsett med GitHub",
+    "signInDiscord": "Fortsett med Discord",
+    "more": "Mer",
+    "create": "Opprett",
+    "close": "Lukk",
+    "next": "Neste",
+    "previous": "Forrige",
+    "submit": "Send inn",
+    "download": "Last ned",
+    "backToHome": "Tilbake til Hjem",
+    "viewing": "Viser",
+    "editing": "Redigerer",
+    "gotIt": "Skjønner"
+  },
+  "label": {
+    "welcome": "Velkommen!",
+    "firstName": "Fornavn",
+    "middleName": "Mellomnavn",
+    "lastName": "Etternavn",
+    "stepX": "Trinn {X}"
+  },
+  "oAuth": {
+    "err": {
+      "failedTitle": "Kan ikke koble til kontoen din.",
+      "failedMsg": "Vennligst sørg for at du har fullført påloggingsprosessen i nettleseren din."
+    },
+    "google": {
+      "title": "GOOGLE PÅLOGGING",
+      "instruction1": "For å importere Google-kontaktene dine, må du autorisere denne applikasjonen ved å bruke nettleseren din.",
+      "instruction2": "Kopier denne koden til utklippstavlen ved å klikke på ikonet eller velge teksten:",
+      "instruction3": "Naviger til følgende lenke i nettleseren din, og skriv inn koden ovenfor:",
+      "instruction4": "Trykk på knappen nedenfor når du har fullført påmeldingen:"
+    }
+  },
+  "settings": {
+    "title": "Innstillinger",
+    "popupMenuItem": {
+      "settings": "Innstillinger",
+      "members": "Medlemmer",
+      "trash": "Søppel",
+      "helpAndSupport": "Hjelp & Support"
+    },
+    "accountPage": {
+      "menuLabel": "Min konto",
+      "title": "Min konto",
+      "general": {
+        "title": "Kontonavn & profilbilde",
+        "changeProfilePicture": "Endre profilbilde"
+      },
+      "email": {
+        "title": "E-post",
+        "actions": {
+          "change": "Endre e-post"
+        }
+      },
+      "login": {
+        "title": "Kontoinnlogging",
+        "loginLabel": "Logg inn",
+        "logoutLabel": "Logg ut"
+      }
+    },
+    "workspacePage": {
+      "menuLabel": "Arbeidsområde",
+      "title": "Arbeidsområde",
+      "description": "Tilpass utseendet på arbeidsområdet ditt, tema, skrift, tekstoppsett, dato-/tidsformat og språk.",
+      "workspaceName": {
+        "title": "Arbeidsområdenavn"
+      },
+      "workspaceIcon": {
+        "title": "Arbeidsområdeikon",
+        "description": "Last opp et bilde eller bruk en emoji for arbeidsområdet ditt. Ikonet vil vises i sidefeltet og varsler."
+      },
+      "appearance": {
+        "title": "Utseende",
+        "description": "Tilpass utseendet på arbeidsområdet ditt, tema, skrift, tekstoppsett, dato, tid og språk.",
+        "options": {
+          "system": "Auto",
+          "light": "Lys",
+          "dark": "Mørk"
+        }
+      },
+      "resetCursorColor": {
+        "title": "Tilbakestill dokumentets markørfarge",
+        "description": "Er du sikker på at du vil tilbakestille markørfargen?"
+      },
+      "resetSelectionColor": {
+        "title": "Tilbakestill dokumentets markeringsfarge",
+        "description": "Er du sikker på at du vil tilbakestille markeringsfargen?"
+      },
+      "resetWidth": {
+        "resetSuccess": "Tilbakestill dokumentbredde vellykket"
+      },
+      "theme": {
+        "title": "Tema",
+        "description": "Velg et forhåndsinnstilt tema, eller last opp ditt eget tilpassede tema.",
+        "uploadCustomThemeTooltip": "Last opp et tilpasset tema"
+      },
+      "workspaceFont": {
+        "title": "Arbeidsområdeskrift",
+        "noFontHint": "Ingen skrift funnet, prøv et annet begrep."
+      },
+      "textDirection": {
+        "title": "Tekstretning",
+        "leftToRight": "Venstre til høyre",
+        "rightToLeft": "Høyre til venstre",
+        "auto": "Auto",
+        "enableRTLItems": "Aktiver RTL-verktøylinjeelementer"
+      },
+      "layoutDirection": {
+        "title": "Oppsettretning",
+        "leftToRight": "Venstre til høyre",
+        "rightToLeft": "Høyre til venstre"
+      },
+      "dateTime": {
+        "title": "Dato & tid",
+        "example": "{} kl. {} ({})",
+        "24HourTime": "24-timers tid",
+        "dateFormat": {
+          "label": "Datoformat",
+          "local": "Lokal",
+          "us": "US",
+          "iso": "ISO",
+          "friendly": "Vennlig",
+          "dmy": "D/M/Y"
+        }
+      },
+      "language": {
+        "title": "Språk"
+      },
+      "deleteWorkspacePrompt": {
+        "title": "Slett arbeidsområde",
+        "content": "Er du sikker på at du vil slette dette arbeidsområdet? Denne handlingen kan ikke angres, og eventuelle sider du har publisert vil bli upublisert."
+      },
+      "leaveWorkspacePrompt": {
+        "title": "Forlat arbeidsområde",
+        "content": "Er du sikker på at du vil forlate dette arbeidsområdet? Du vil miste tilgang til alle sider og data i det.",
+        "success": "Du har forlatt arbeidsområdet vellykket.",
+        "fail": "Kunne ikke forlate arbeidsområdet."
+      },
+      "manageWorkspace": {
+        "title": "Administrer arbeidsområde",
+        "leaveWorkspace": "Forlat arbeidsområde",
+        "deleteWorkspace": "Slett arbeidsområde"
+      }
+    },
+    "manageDataPage": {
+      "menuLabel": "Administrer data",
+      "title": "Administrer data",
+      "description": "Administrer data lokal lagring eller importer dine eksisterende data til @:appName.",
+      "dataStorage": {
+        "title": "Fil lagringsplassering",
+        "tooltip": "Plasseringen der filene dine er lagret",
+        "actions": {
+          "change": "Endre sti",
+          "open": "Åpne mappe",
+          "openTooltip": "Åpne gjeldende data mappeplassering",
+          "copy": "Kopier sti",
+          "copiedHint": "Sti kopiert!",
+          "resetTooltip": "Tilbakestill til standard plassering"
+        },
+        "resetDialog": {
+          "title": "Er du sikker?",
+          "description": "Tilbakestilling av stien til standard data plassering vil ikke slette dataene dine. Hvis du vil importere de nåværende dataene dine på nytt, bør du kopiere stien til den nåværende plasseringen først."
+        }
+      },
+      "importData": {
+        "title": "Importer data",
+        "tooltip": "Importer data fra @:appName sikkerhetskopier/data mapper",
+        "description": "Kopier data fra en ekstern @:appName data mappe",
+        "action": "Bla gjennom fil"
+      },
+      "encryption": {
+        "title": "Kryptering",
+        "tooltip": "Administrer hvordan dataene dine er lagret og kryptert",
+        "descriptionNoEncryption": "Å slå på kryptering vil kryptere alle data. Dette kan ikke angres.",
+        "descriptionEncrypted": "Dataene dine er kryptert.",
+        "action": "Krypter data",
+        "dialog": {
+          "title": "Krypter alle dataene dine?",
+          "description": "Kryptering av alle dataene dine vil holde dataene dine trygge og sikre. Denne handlingen kan IKKE angres. Er du sikker på at du vil fortsette?"
+        }
+      },
+      "cache": {
+        "title": "Tøm cache",
+        "description": "Hjelp til med å løse problemer som bilder som ikke lastes, manglende sider i et rom og skrifter som ikke lastes. Dette vil ikke påvirke dataene dine.",
+        "dialog": {
+          "title": "Tøm cache",
+          "description": "Hjelp til med å løse problemer som bilder som ikke lastes, manglende sider i et rom og skrifter som ikke lastes. Dette vil ikke påvirke dataene dine.",
+          "successHint": "Cache tømt!"
+        }
+      },
+      "data": {
+        "fixYourData": "Fiks dataene dine",
+        "fixButton": "Fiks",
+        "fixYourDataDescription": "Hvis du opplever problemer med dataene dine, kan du prøve å fikse det her."
+      }
+    },
+    "shortcutsPage": {
+      "menuLabel": "Snarveier",
+      "title": "Snarveier",
+      "editBindingHint": "Skriv inn ny binding",
+      "searchHint": "Søk",
+      "actions": {
+        "resetDefault": "Tilbakestill standard"
+      },
+      "errorPage": {
+        "message": "Kunne ikke laste snarveier: {}",
+        "howToFix": "Vennligst prøv igjen, hvis problemet vedvarer, vennligst ta kontakt på GitHub."
+      },
+      "resetDialog": {
+        "title": "Tilbakestill snarveier",
+        "description": "Dette vil tilbakestille alle tastatursnarveiene dine til standard, du kan ikke angre dette senere, er du sikker på at du vil fortsette?",
+        "buttonLabel": "Tilbakestill"
+      },
+      "conflictDialog": {
+        "title": "{} er allerede i bruk",
+        "descriptionPrefix": "Denne tastatursnarveien er allerede i bruk av ",
+        "descriptionSuffix": ". Hvis du erstatter denne tastatursnarveien, vil den bli fjernet fra {}.",
+        "confirmLabel": "Fortsett"
+      },
+      "editTooltip": "Trykk for å begynne å redigere tastatursnarveien",
+      "keybindings": {
+        "toggleToDoList": "Veksle gjøremålsliste",
+        "insertNewParagraphInCodeblock": "Sett inn nytt avsnitt",
+        "pasteInCodeblock": "Lim inn i kodeblokk",
+        "selectAllCodeblock": "Velg alt",
+        "indentLineCodeblock": "Sett inn to mellomrom ved linjestart",
+        "outdentLineCodeblock": "Slett to mellomrom ved linjestart",
+        "twoSpacesCursorCodeblock": "Sett inn to mellomrom ved markøren",
+        "copy": "Kopier utvalg",
+        "paste": "Lim inn innhold",
+        "cut": "Klipp utvalg",
+        "alignLeft": "Juster tekst til venstre",
+        "alignCenter": "Juster tekst til midten",
+        "alignRight": "Juster tekst til høyre",
+        "undo": "Angre",
+        "redo": "Gjør om",
+        "convertToParagraph": "Konverter blokk til avsnitt",
+        "backspace": "Slett",
+        "deleteLeftWord": "Slett venstre ord",
+        "deleteLeftSentence": "Slett venstre setning",
+        "delete": "Slett høyre tegn",
+        "deleteMacOS": "Slett venstre tegn",
+        "deleteRightWord": "Slett høyre ord",
+        "moveCursorLeft": "Flytt markøren til venstre",
+        "moveCursorBeginning": "Flytt markøren til begynnelsen",
+        "moveCursorLeftWord": "Flytt markøren til venstre ett ord",
+        "moveCursorLeftSelect": "Velg og flytt markøren til venstre",
+        "moveCursorBeginSelect": "Velg og flytt markøren til begynnelsen",
+        "moveCursorLeftWordSelect": "Velg og flytt markøren til venstre ett ord",
+        "moveCursorRight": "Flytt markøren til høyre",
+        "moveCursorEnd": "Flytt markøren til slutten",
+        "moveCursorRightWord": "Flytt markøren til høyre ett ord",
+        "moveCursorRightSelect": "Velg og flytt markøren til høyre",
+        "moveCursorEndSelect": "Velg og flytt markøren til slutten",
+        "moveCursorRightWordSelect": "Velg og flytt markøren til høyre ett ord",
+        "moveCursorUp": "Flytt markøren opp",
+        "moveCursorTopSelect": "Velg og flytt markøren til toppen",
+        "moveCursorTop": "Flytt markøren til toppen",
+        "moveCursorUpSelect": "Velg og flytt markøren opp",
+        "moveCursorBottomSelect": "Velg og flytt markøren til bunnen",
+        "moveCursorBottom": "Flytt markøren til bunnen",
+        "moveCursorDown": "Flytt markøren ned",
+        "moveCursorDownSelect": "Velg og flytt markøren ned",
+        "home": "Rull til toppen",
+        "end": "Rull til bunnen",
+        "toggleBold": "Veksle fet",
+        "toggleItalic": "Veksle kursiv",
+        "toggleUnderline": "Veksle understreking",
+        "toggleStrikethrough": "Veksle gjennomstreking",
+        "toggleCode": "Veksle innebygd kode",
+        "toggleHighlight": "Veksle utheving",
+        "showLinkMenu": "Vis lenkemeny",
+        "openInlineLink": "Åpne innebygd lenke",
+        "openLinks": "Åpne alle valgte lenker",
+        "indent": "Innrykk",
+        "outdent": "Utrykk",
+        "exit": "Avslutt redigering",
+        "pageUp": "Rull en side opp",
+        "pageDown": "Rull en side ned",
+        "selectAll": "Velg alt",
+        "pasteWithoutFormatting": "Lim inn innhold uten formatering",
+        "showEmojiPicker": "Vis emoji-velger",
+        "enterInTableCell": "Legg til linjeskift i tabell",
+        "leftInTableCell": "Flytt til venstre en celle i tabell",
+        "rightInTableCell": "Flytt til høyre en celle i tabell",
+        "upInTableCell": "Flytt opp en celle i tabell",
+        "downInTableCell": "Flytt ned en celle i tabell",
+        "tabInTableCell": "Gå til neste tilgjengelige celle i tabell",
+        "shiftTabInTableCell": "Gå til forrige tilgjengelige celle i tabell",
+        "backSpaceInTableCell": "Stopp ved begynnelsen av cellen"
+      },
+      "commands": {
+        "codeBlockNewParagraph": "Sett inn et nytt avsnitt ved siden av kodeblokken",
+        "codeBlockIndentLines": "Sett inn to mellomrom ved linjestart i kodeblokk",
+        "codeBlockOutdentLines": "Slett to mellomrom ved linjestart i kodeblokk",
+        "codeBlockAddTwoSpaces": "Sett inn to mellomrom ved markørposisjonen i kodeblokk",
+        "codeBlockSelectAll": "Velg alt innhold i en kodeblokk",
+        "codeBlockPasteText": "Lim inn tekst i kodeblokk",
+        "textAlignLeft": "Juster tekst til venstre",
+        "textAlignCenter": "Juster tekst til midten",
+        "textAlignRight": "Juster tekst til høyre"
+      },
+      "couldNotLoadErrorMsg": "Kunne ikke laste snarveier, prøv igjen",
+      "couldNotSaveErrorMsg": "Kunne ikke lagre snarveier, prøv igjen"
+    },
+    "aiPage": {
+      "title": "AI-innstillinger",
+      "menuLabel": "AI-innstillinger",
+      "keys": {
+        "enableAISearchTitle": "AI-søk",
+        "aiSettingsDescription": "Velg din foretrukne modell for å drive AppFlowy AI. Inkluderer nå GPT 4-o, Claude 3,5, Llama 3.1 og Mistral 7B",
+        "loginToEnableAIFeature": "AI-funksjoner er bare aktivert etter pålogging med @:appName Cloud. Hvis du ikke har en @:appName-konto, gå til 'Min konto' for å registrere deg",
+        "llmModel": "Språkmodell",
+        "llmModelType": "Språkmodelltype",
+        "downloadLLMPrompt": "Last ned {}",
+        "downloadAppFlowyOfflineAI": "Nedlasting av AI offline-pakke vil aktivere AI til å kjøre på enheten din. Vil du fortsette?",
+        "downloadLLMPromptDetail": "Nedlasting av {} lokal modell vil ta opptil {} lagringsplass. Vil du fortsette?",
+        "downloadBigFilePrompt": "Det kan ta rundt 10 minutter å fullføre nedlastingen",
+        "downloadAIModelButton": "Last ned",
+        "downloadingModel": "Laster ned",
+        "localAILoaded": "Lokal AI-modell lagt til og klar til bruk",
+        "localAIStart": "Lokal AI-chat starter...",
+        "localAILoading": "Lokal AI-chatmodell lastes...",
+        "localAIStopped": "Lokal AI stoppet",
+        "failToLoadLocalAI": "Kunne ikke starte lokal AI",
+        "restartLocalAI": "Start lokal AI på nytt",
+        "disableLocalAITitle": "Deaktiver lokal AI",
+        "disableLocalAIDescription": "Vil du deaktivere lokal AI?",
+        "localAIToggleTitle": "Veksle for å aktivere eller deaktivere lokal AI",
+        "offlineAIInstruction1": "Følg",
+        "offlineAIInstruction2": "instruksjonen",
+        "offlineAIInstruction3": "for å aktivere offline AI.",
+        "offlineAIDownload1": "Hvis du ikke har lastet ned AppFlowy AI, vennligst",
+        "offlineAIDownload2": "last ned",
+        "offlineAIDownload3": "det først",
+        "activeOfflineAI": "Aktiv",
+        "downloadOfflineAI":
